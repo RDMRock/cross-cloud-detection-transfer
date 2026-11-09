@@ -1,0 +1,40 @@
+{
+  "snapshot_date": "2026-11-08",
+  "timezone": "America/Vancouver",
+  "source_revision": "f110266",
+  "scope": "Sanitized summary of recorded verification. Working implementation and detailed records are private.",
+  "offline_unit_tests": {
+    "passed": 188,
+    "source_log_sha256": "19669138933e2cf0cd54d1b2830a204728aa8732707bf13087f255a16b1666af"
+  },
+  "fake_model_grid": {
+    "configurations": 270,
+    "conditions": 884,
+    "statuses": {
+      "needs_evaluation": 884
+    },
+    "resume_additional_calls": 0,
+    "verification": "fake model and fake independent checker; no cloud/model validity claim"
+  },
+  "local_smoke_test": {
+    "calls": 1,
+    "status": "passed",
+    "elapsed_seconds": 24.688,
+    "prompt_tokens": 143,
+    "generated_tokens": 645,
+    "scope": "Single synthetic local Ollama smoke test; not a scored translation, optimal-budget finding, or native cloud execution."
+  },
+  "cross_cloud_accuracy": null,
+  "limitations": [
+    "No scored cross-cloud result is reported.",
+    "Fake-model condition counts are not independent trials.",
+    "The smoke test used invented events, not a source detection rule."
+  ],
+  "portfolio_recheck": {
+    "date": "2026-11-08",
+    "tests_passed": 188,
+    "duration_seconds": 21.206,
+    "scope": "Copied working source, offline unit tests only. No model or cloud calls.",
+    "log_sha256": "cd42876a244cc946a0a66924cade7028f73228789141f32a2cba15609ab87957"
+  }
+}
